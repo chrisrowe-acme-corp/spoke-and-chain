@@ -22,7 +22,7 @@
     "bref/bref": "2.4.20",
     "craftcms/aws-s3": "2.3.1",
     "craftcms/yii2-dynamodb": "^2",
-    "craftcms/cms": "5.10.8.1",
+    "craftcms/cms": "5.12.2",
     "craftcms/commerce": "5.7.x-dev",
     "craftcms/redactor": "^4",
     "craftcms/store-hours": "^4",
@@ -57,7 +57,8 @@
     "optimize-autoloader": true,
     "allow-plugins": {
       "yiisoft/yii2-composer": true,
-      "craftcms/plugin-installer": true
+      "craftcms/plugin-installer": true,
+      "php-http/discovery": true
     }
   },
   "scripts": {
